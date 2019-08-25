@@ -14,15 +14,53 @@
   color: white;
 }
 
+.container {
+  display: flex;
+}
+.list {
+  width: 50%;
+  padding: 2%;
+}
+
+aside {
+  float: right;
+}
+
 .App-title {
   font-size: 1.5em;
+  padding: 5%;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.food-form-find {
+  margin: 5%;
 }
+
+#find-food-title {
+  padding: 2%;
+  font-size:1.5em;
+  margin: 5%;
+}
+
+#add-food-button, .form-button {
+  background-color: blue;
+  color: white;
+  padding: 2%;
+  font-size: 1.2em;
+}
+
+.form-label {
+  font-size: 1.2em;
+}
+
+.add-food {
+  margin: 5% 0;
+}
+
+.form-input {
+  margin: 2%;
+}
+
